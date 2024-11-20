@@ -1,14 +1,17 @@
 {
+  "$schema": "https://schema.tauri.app/config/2",
   "productName": "tauri-app",
-  "version": "0.0.0",
-  "identifier": "com.tauri.devs",
+  "version": "0.1.0",
+  "identifier": "com.tauri-app.app",
   "build": {
     "beforeDevCommand": "pnpm dev",
     "devUrl": "http://localhost:4321/",
     "beforeBuildCommand": "pnpm build",
     "frontendDist": "../dist"
   },
-  "app": {"windows": [
+  "app": {
+    "withGlobalTauri": true,
+    "windows": [
       {
         "title": "tauri-app",
         "width": 800,

@@ -18,8 +18,8 @@ importers:
         specifier: ^0.1.6
         version: 0.1.6(@types/node@22.5.0)(rollup@4.28.1)(typescript@5.7.2)
       '@playform/inline':
-        specifier: ^0.0.2
-        version: 0.0.2
+        specifier: ^0.1.0
+        version: 0.1.0(@types/node@22.5.0)(lightningcss@1.27.0)(rollup@4.28.1)(terser@5.36.0)(typescript@5.7.2)(yaml@2.6.1)
       '@tauri-apps/api':
         specifier: '>=2.0.0-beta.0'
         version: 2.1.1
@@ -641,11 +641,11 @@ packages:
   '@playform/compress@0.1.6':
     resolution: {integrity: sha512-T76ABM/naxhIEYQ9D4z+6MS9OW6IGxChlUd8gBPGa5ipTxsQTRV3QkB5v2/l7ZOnds/JoaXqzr0J6xThKXjm7Q==}
 
-  '@playform/inline@0.0.2':
-    resolution: {integrity: sha512-2+h7t4mydMVJjP+U8PZhFz7iUlCqf/oGZX/Y5hUO72WeP6YD76MxkRSMCLJjXbqQkIQ2e5N3irbhz0JKKzMBTQ==}
+  '@playform/inline@0.1.0':
+    resolution: {integrity: sha512-IDy8oH1UH9qFz2swmL6sgODWrvNltf0L3VrHCoDemW9GjDNbdEIoDafDMdC5gw3C92Fn/jUBA+tYvy+j7/mqFw==}
 
-  '@playform/pipe@0.0.2':
-    resolution: {integrity: sha512-1LJADjJVxUDIfpp5vkIup7vuxsZllWPYYbZO7gLN1CUcOFIekYSi1uxptkrYWBDRW/usiAyUdpd3gSKisED/sQ==}
+  '@playform/pipe@0.1.0':
+    resolution: {integrity: sha512-EiY5y81BKSIBduFDM9UAN9RISQptYd8TR1UWTx1H/5Tm86AHxjAm/fiGqUuWwZShBqc5K1TY4ynkT6dpp1r7UQ==}
 
   '@playform/pipe@0.1.1':
     resolution: {integrity: sha512-qofwa/+UKbvyHw4NiVwQZ5Z4UNEDSKmrtKFUL6JO9NhtaEuio3a90QuvTTsTw4g4tGHCmj0is/7p1igkRJ2EyA==}
@@ -883,8 +883,8 @@ packages:
   '@types/nlcst@2.0.3':
     resolution: {integrity: sha512-vSYNSDe6Ix3q+6Z7ri9lyWqgGhJTmzRjZRqyq15N0Z/1/UnVsno9G/N40NBijoYx2seFDIl0+B2mgAb9mezUCA==}
 
-  '@types/node@20.12.4':
-    resolution: {integrity: sha512-E+Fa9z3wSQpzgYQdYmme5X3OTuejnnTx88A6p6vkkJosR3KBz+HpE3kqNm98VE6cfLFcISx7zW7MsJkH6KwbTw==}
+  '@types/node@20.14.12':
+    resolution: {integrity: sha512-r7wNXakLeSsGT0H1AU863vS2wa5wBOK4bWMjZz2wj+8nBx+m5PeIn0k8AloSLpRuiwdRQZwarZqHE4FNArPuJQ==}
 
   '@types/node@22.5.0':
     resolution: {integrity: sha512-DkFrJOe+rfdHTqqMg0bSNlGlQ85hSoh2TPzZyhHsXnMtligRWpxUySiyw8FY14ITt24HVCiQPWxS3KO/QlGmWg==}
@@ -1114,8 +1114,9 @@ packages:
     resolution: {integrity: sha512-yki5XnKuf750l50uGTllt6kKILY4nQ1eNIQatoXEByZ5dWgnKqbnqmTrBE5B4N7lrMJKQ2ytWMiTO2o0v6Ew/w==}
     engines: {node: '>= 0.6'}
 
-  critters@0.0.22:
-    resolution: {integrity: sha512-NU7DEcQZM2Dy8XTKFHxtdnIM/drE312j2T4PCVaSUcS0oBeyT/NImpRw/Ap0zOr/1SE7SgPK9tGPg1WK/sVakw==}
+  critters@0.0.24:
+    resolution: {integrity: sha512-Oyqew0FGM0wYUSNqR0L6AteO5MpMoUU0rhKRieXeiKs+PmRTxiJMyaunYB2KF6fQ3dzChXKCpbFOEJx3OQ1v/Q==}
+    deprecated: Ownership of Critters has moved to the Nuxt team, who will be maintaining the project going forward. If you'd like to keep using Critters, please switch to the actively-maintained fork at https://github.com/danielroe/beasties
 
   css-select@5.1.0:
     resolution: {integrity: sha512-nwoRF1rvRRnnCqqY7updORDsuqKzqYJ28+oSMaJMMgOauh3fvwHqMS7EZpIPqK8GL+g9mKxF1vP/ZjSeNjEVHg==}
@@ -1155,10 +1156,6 @@ packages:
 
   decode-named-character-reference@1.0.2:
     resolution: {integrity: sha512-O8x12RzrUF8xyVcY0KJowWsmaJxQbmy0/EtnNtHRpsOcT7dFk5W598coHqBVpmWo1oQQfsCqfCmkZN5DJrZVdg==}
-
-  deepmerge-ts@5.1.0:
-    resolution: {integrity: sha512-eS8dRJOckyo9maw9Tu5O5RUi/4inFLrnoLkBe3cPfDMx3WZioXtmOew4TXQaxq7Rhl4xjDtR7c6x8nNTxOvbFw==}
-    engines: {node: '>=16.0.0'}
 
   deepmerge-ts@7.1.0:
     resolution: {integrity: sha512-q6bNsfNBtgr8ZOQqmZbl94MmYWm+QcDNIkqCxVWiw1vKvf+y/N2dZQKdnDXn4c5Ygt/y63tDof6OCN+2YwWVEg==}
@@ -3032,15 +3029,31 @@ snapshots:
       - supports-color
       - typescript
 
-  '@playform/inline@0.0.2':
+  '@playform/inline@0.1.0(@types/node@22.5.0)(lightningcss@1.27.0)(rollup@4.28.1)(terser@5.36.0)(typescript@5.7.2)(yaml@2.6.1)':
     dependencies:
-      '@playform/pipe': 0.0.2
-      critters: 0.0.22
+      '@playform/pipe': 0.1.0
+      astro: 5.0.3(@types/node@22.5.0)(lightningcss@1.27.0)(rollup@4.28.1)(terser@5.36.0)(typescript@5.7.2)(yaml@2.6.1)
+      critters: 0.0.24
+    transitivePeerDependencies:
+      - '@types/node'
+      - jiti
+      - less
+      - lightningcss
+      - rollup
+      - sass
+      - sass-embedded
+      - stylus
+      - sugarss
+      - supports-color
+      - terser
+      - tsx
+      - typescript
+      - yaml
 
-  '@playform/pipe@0.0.2':
+  '@playform/pipe@0.1.0':
     dependencies:
-      '@types/node': 20.12.4
-      deepmerge-ts: 5.1.0
+      '@types/node': 20.14.12
+      deepmerge-ts: 7.1.0
       fast-glob: 3.3.2
 
   '@playform/pipe@0.1.1':
@@ -3239,7 +3252,7 @@ snapshots:
     dependencies:
       '@types/unist': 3.0.3
 
-  '@types/node@20.12.4':
+  '@types/node@20.14.12':
     dependencies:
       undici-types: 5.26.5
 
@@ -3620,7 +3633,7 @@ snapshots:
 
   cookie@0.7.2: {}
 
-  critters@0.0.22:
+  critters@0.0.24:
     dependencies:
       chalk: 4.1.2
       css-select: 5.1.0
@@ -3665,8 +3678,6 @@ snapshots:
   decode-named-character-reference@1.0.2:
     dependencies:
       character-entities: 2.0.2
-
-  deepmerge-ts@5.1.0: {}
 
   deepmerge-ts@7.1.0: {}
 

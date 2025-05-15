@@ -14,7 +14,7 @@
     "@astrojs/check": "^0.9.4",
     "@astrojs/solid-js": "^5.0.1",
     "@playform/compress": "^0.1.9",
-    "@playform/inline": "^0.1.0",
+    "@playform/inline": "^0.1.2",
     "@tauri-apps/api": ">=2.5.0",
     "@tauri-apps/cli": ">=2.5.0",
     "astro": "^5.7.12",
